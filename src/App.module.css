@@ -1,0 +1,44 @@
+:root {
+  --color-white: #ffffff;
+
+  --color-gray: #777777;
+  --color-silver: #bbbbbb;
+  --color-silver-2: #bebebe;
+
+  --color-tomato: #ff6347;
+
+  --color-blue: #0b4bec;
+
+  --color-lighter-blue-2: #03bcff;
+  --color-cadet-blue: #5f9ea0;
+
+  --color-light-green: #90ee90;
+  --color-light-orange: rgba(255, 119, 48, 0.8);
+
+  --color-dark-blue: #090c1b;
+  --color-mantis: #7ac142;
+  --color-mantis-darker: #5a803d;
+  --color-lighter-blue: #153c6b;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
+.wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-lighter-blue);
+  padding: 1.2rem 0;
+}
+.title {
+  font-size: calc(24px + 30 * ((100vw - 320px) / (1920 - 320)));
+  text-align: center;
+}
