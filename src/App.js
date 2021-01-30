@@ -1,10 +1,11 @@
 import styles from "./App.module.css";
+import { WeatherCard } from "./components/WeatherCard/WeatherCard";
 
 function App() {
   return (
     <div className={styles.wrapper}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Weather App</h1>
+        <WeatherCard />
       </main>
     </div>
   );

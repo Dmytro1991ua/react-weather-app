@@ -35,10 +35,13 @@
   flex: 1 1 auto;
   width: 100%;
   height: 100%;
-  background-color: var(--color-lighter-blue);
+  background-color: #153c6b;
   padding: 1.2rem 0;
+  display: flex;
 }
-.title {
-  font-size: calc(24px + 30 * ((100vw - 320px) / (1920 - 320)));
-  text-align: center;
+
+.container {
+  max-width: 117rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
 }
