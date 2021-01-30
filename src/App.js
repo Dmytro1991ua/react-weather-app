@@ -1,5 +1,6 @@
 import styles from "./App.module.css";
 import { WeatherCard } from "./components/WeatherCard/WeatherCard";
+//import {API_KEY, BASE_URL} from './weatherAPI/api.js'
 
 function App() {
   return (
@@ -11,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

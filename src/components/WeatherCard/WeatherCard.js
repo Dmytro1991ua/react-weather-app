@@ -1,6 +1,6 @@
 import React from "react";
-import { SearchCity } from "../SearchCity/SearchCity";
-import { WeatherData } from "../WeatherData/WeatherData";
+import { SearchCity } from "./SearchCity/SearchCity";
+import { WeatherData } from "./WeatherData/WeatherData";
 import styles from "./Weather.module.css";
 
 export const WeatherCard = () => {

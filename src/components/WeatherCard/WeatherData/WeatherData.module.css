@@ -1,0 +1,109 @@
+.app-bottom {
+  color: #090c1b;
+  font-weight: 700;
+  padding: 2rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.app-bottom.active {
+  display: block;
+}
+.app-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: calc(22px + 23 * ((100vw - 320px) / (1920 - 320)));
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  position: relative;
+}
+.heading-country {
+  margin: 0.4rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.3rem;
+}
+
+.row:last-child {
+  margin-bottom: 0rem;
+}
+
+.temperature {
+  font-size: 6rem;
+  margin-right: 5rem;
+}
+.temperature-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.weather-condition {
+  font-size: calc(15px + 15 * ((100vw - 320px) / (1920 - 320)));
+  margin-bottom: 0.2rem;
+  text-transform: capitalize;
+}
+.temperature-max {
+  margin-bottom: 0.2rem;
+  font-size: 2.2rem;
+}
+
+.temperature-max::before {
+  content: "\2191";
+  margin-right: 0.3rem;
+}
+.temperature-min {
+  font-size: 2.2rem;
+}
+.temperature-min::before {
+  content: "\2193";
+  margin-right: 0.3rem;
+}
+.icon-box {
+  width: 6rem;
+  height: 6rem;
+  border: 4px solid #7ac142;
+  background-color: #5f9ea0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icon {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.temperature-additional {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.temperature-additional-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.temperature-additional-box:last-child {
+  margin-right: 0;
+}
+
+.temperature-feeling {
+  font-size: 2.8rem;
+  margin-bottom: 0.4rem;
+}
+.temperature-additional-title {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
