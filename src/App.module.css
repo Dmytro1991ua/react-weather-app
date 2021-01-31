@@ -1,28 +1,3 @@
-:root {
-  --color-white: #ffffff;
-
-  --color-gray: #777777;
-  --color-silver: #bbbbbb;
-  --color-silver-2: #bebebe;
-
-  --color-tomato: #ff6347;
-
-  --color-blue: #0b4bec;
-
-  --color-lighter-blue-2: #03bcff;
-  --color-cadet-blue: #5f9ea0;
-
-  --color-light-green: #90ee90;
-  --color-light-orange: rgba(255, 119, 48, 0.8);
-
-  --color-dark-blue: #090c1b;
-  --color-mantis: #7ac142;
-  --color-mantis-darker: #5a803d;
-  --color-lighter-blue: #153c6b;
-  --color-white: #ffffff;
-  --color-black: #000000;
-}
-
 .wrapper {
   min-height: 100vh;
   overflow: hidden;

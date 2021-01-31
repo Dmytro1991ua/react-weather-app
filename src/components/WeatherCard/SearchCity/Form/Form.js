@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Form.module.css";
 //import { useState } from "react";
 
-export const Form = ({ requestCity, setCity, city }) => {
+export const Form = ({ setCity, city, requestCity}) => {
   const handleChange = (event) => {
     setCity(event.target.value);
   };
@@ -11,7 +11,7 @@ export const Form = ({ requestCity, setCity, city }) => {
     event.preventDefault();
     requestCity();
 
-    setCity("")
+    setCity("");
   };
 
   return (
@@ -24,6 +24,7 @@ export const Form = ({ requestCity, setCity, city }) => {
           placeholder="Enter Your City"
           onChange={handleChange}
           value={city}
+          required
         />
         <label className={styles.label} htmlFor="city">
           Enter Your City
