@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./WeatherData.module.css";
 
-export const WeatherData = ({ weather, isLoading, error }) => {
+export const WeatherData = ({ weather, isLoading, error }) => { 
+
   if (isLoading) {
     return <h2 className={styles.loader}>Loading....</h2>;
   }
@@ -18,7 +19,6 @@ export const WeatherData = ({ weather, isLoading, error }) => {
         </p>
       ) : (
         <div className={styles["app-bottom"]}>
-         
           {typeof weather.main !== "undefined" ? (
             <>
               <div className={styles["app-body"]}>

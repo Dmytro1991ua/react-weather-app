@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Form.module.css";
-//import { useState } from "react";
 
 export const Form = ({ setCity, city, requestCity}) => {
   const handleChange = (event) => {

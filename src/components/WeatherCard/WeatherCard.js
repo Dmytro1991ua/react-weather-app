@@ -3,7 +3,7 @@ import { SearchCity } from "./SearchCity/SearchCity";
 import { WeatherData } from "./WeatherData/WeatherData";
 import styles from "./WeatherCard.module.css";
 
-export const WeatherCard = ({ setCity, city, weather, requestCity, isLoading, error }) => {
+export const WeatherCard = ({ setCity, city, weather, requestCity, isLoading, error}) => {
   return (
     <section className={styles["weather-app"]}>
       <div className={styles.container}>
@@ -15,7 +15,11 @@ export const WeatherCard = ({ setCity, city, weather, requestCity, isLoading, er
             city={city}
             error={error}
           />
-          <WeatherData weather={weather} isLoading={isLoading} error={error} />
+          <WeatherData
+            weather={weather}
+            isLoading={isLoading}
+            error={error}
+          />
         </div>
       </div>
     </section>
