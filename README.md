@@ -8,7 +8,7 @@ A test task to develop a Weather App in React as a part of a recruitment process
 
 ##### Stack of technologies which were used to develop a particular project: 
 
-#### React JS, Functional components, Hooks, Axios, Responsive Web Design, Mobile First Approach.
+#### React JS, Functional components, CSS Modules, Hooks, Axios, Responsive Web Design, Mobile First Approach.
 
 A link on GitHub Pages - https://dmytro1991ua.github.io/react-weather-app/
 
