@@ -1,5 +1,7 @@
 # react-weather-app
 
+![screenshot-dmytro1991ua-github-io-react-weather-app-1613246517168](https://user-images.githubusercontent.com/61331410/107860282-2eb0bc80-6e47-11eb-8dd4-214623c2e81c.png)
+
 A test task to develop a Weather App in React as a part of a recruitment process, with functionality of rendering recieved weather data as a card based on user input 
 
 #### Main Features of test-task-weather-app:
